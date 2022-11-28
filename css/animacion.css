@@ -9,14 +9,17 @@
     top:0;
     clip: rect(0,900px,0,0);
     content:attr(data-glitchtext);
-    background-color:black;
+   
 }
-
 .glitch::before{
     animation-name: glitch-animation-2 ;
     animation-duration: 6s;
     left:-4px;
     text-shadow:1px 0 #ff8838;
+    background-image: url(/images/Nixiecentrado.jpg);
+    background-size: auto 120vh;
+    background-position: calc(50.5% + 4px) center;
+    background-repeat: no-repeat;
  
 }
 .glitch::after{
@@ -24,6 +27,10 @@
     animation-duration: 4s;
     left:4px;
     text-shadow:-1px 0 #f8d251;
+    background-image: url(/images/Nixiecentrado.jpg);
+    background-size: auto 120vh;
+    background-position: calc(50.5% + 4px) center;
+    background-repeat: no-repeat;
   
 }
 .glitch {
