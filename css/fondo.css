@@ -4,5 +4,6 @@ body
     background-size: cover;
     background-repeat:no-repeat;
     background-position:center;
-    overflow:hidden;
+    width:100%;
+    overflow-y:hidden;
 }
