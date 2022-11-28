@@ -17,8 +17,6 @@
     left:-4px;
     text-shadow:1px 0 #ff8838;
     background-image: url(/images/Nixiecentrado.jpg);
-    background-size: auto 120vh;
-    background-position: calc(50.5% + 4px) center;
     background-repeat: no-repeat;
  
 }
@@ -28,11 +26,31 @@
     left:4px;
     text-shadow:-1px 0 #f8d251;
     background-image: url(/images/Nixiecentrado.jpg);
-    background-size: auto 120vh;
-    background-position: calc(50.5% + 4px) center;
     background-repeat: no-repeat;
   
 }
+
+@media (orientation:landscape) {
+    .glitch::before{
+        background-size: 100vw auto;
+        background-position: calc(50.5% + 4px) center;
+    }
+        .glitch::after{
+            background-size: 100vw auto;
+            background-position: calc(50.5% - 4px) center;
+    }
+}
+@media (orientation:portrait){
+    .glitch::before{
+        background-size: auto 100vh;
+        background-position: calc(50.5% + 4px) center;
+    }
+        .glitch::after{
+            background-size: auto 100vh;
+            background-position: calc(50.5% - 4px) center;
+    }
+}
+
 .glitch {
     position:relative;
 }
