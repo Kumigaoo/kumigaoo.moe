@@ -1,3 +1,4 @@
+
 .glitch::before,.glitch::after
 {
     animation-iteration-count: infinite;
@@ -8,13 +9,8 @@
     top:0;
     clip: rect(0,900px,0,0);
     content:attr(data-glitchtext);
-    background-color:rgb(241, 241, 228);
-    background-size: cover;
-    background-image: url("/images/Nixiecentrado.jpg");
-    background-position:center;
-    background-size:190%
-    
-    }
+    background-color:black;
+}
 
 .glitch::before{
     animation-name: glitch-animation-2 ;
