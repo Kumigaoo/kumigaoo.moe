@@ -1,10 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
-@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 body {
     font-family: 'Lobster', cursive;
-   color:rgb(241, 241, 228)
+   color:rgb(241, 241, 228);
 }
 .title
 {font-size: 100%;
 font-size: 7em;}
+
+@media (max-width: 370px) {
+    .title {
+        font-size: 5em;
+    }
+}
+
+@media (max-width: 290px) {
+    .title {
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 230px) {
+    .title {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 170px) {
+    .title {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 120px) {
+    .title {
+        font-size: 1.5em;
+    }
+}

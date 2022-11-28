@@ -53,6 +53,7 @@
 
 .glitch {
     position:relative;
+    max-width: 99%;
 }
 
 @keyframes glitch-animation {
