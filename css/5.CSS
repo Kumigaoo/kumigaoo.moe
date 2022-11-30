@@ -1,13 +1,13 @@
-.culo,.agarrame,.vacuno,.reves,.aparato,.veis,.mete,.mueve,.entocho{
-    background-color: white;
-    align-content:center;
-    align-items:center;
-    justify-content:center;
-    display:flex;
-    position:absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
+#rimas {
+  background-color: white;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
 }

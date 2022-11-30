@@ -1,51 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
 body {
-    font-family: 'Lobster', cursive;
-   color:rgb(241, 241, 228);
+  font-family: "Lobster", cursive;
+  color: rgb(241, 241, 228);
 }
-.title
-{font-size: 100%;
-font-size: 7em;}
+.title {
+  font-size: 100%;
+  font-size: 7em;
+}
 
 @media (max-width: 350px) {
-    .title {
-        font-size: 4em;
-    }
+  .title {
+    font-size: 4em;
+  }
 }
 
 @media (max-width: 270px) {
-    .title {
-        font-size: 3em;
-    }
+  .title {
+    font-size: 3em;
+  }
 }
 
 @media (max-width: 210px) {
-    .title {
-        font-size: 2em;
-    }
+  .title {
+    font-size: 2em;
+  }
 }
 
 @media (max-width: 150px) {
-    .title {
-        font-size: 1em;
-    }
+  .title {
+    font-size: 1em;
+  }
 }
 
 @media (max-width: 100px) {
-    .title {
-        font-size: 0.5em;
-    }
+  .title {
+    font-size: 0.5em;
+  }
 }
 
-.up{
-    font-family: 'Press Start 2P', cursive;
-    color:rgb(241, 241, 228);
-    font-size: 16px
+.up {
+  font-family: "Press Start 2P", cursive;
+  color: rgb(241, 241, 228);
+  font-size: 16px;
 }
-.culo,.agarrame,.vacuno,.reves,.aparato,.mete,.veis,.mueve,.entocho{
-    font-family: 'Rubik Glitch';
-    color: black;
-    font-size: 400%;
+#rimas {
+  font-family: "Rubik Glitch";
+  color: black;
+  font-size: 400%;
 }
