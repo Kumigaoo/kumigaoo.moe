@@ -50,3 +50,15 @@ body {
   color: black;
   font-size: 400%;
 }
+
+.titlerate {
+  font-family: "Lobster";
+  color: black;
+  font-size: 150%;
+}
+
+.textrate {
+  font-family: "Lobster";
+  color: black;
+  font-size: 110%;
+}
