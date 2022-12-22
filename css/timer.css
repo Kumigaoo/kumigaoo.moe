@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+body {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  margin: 0;
+  background-image: url(/images/very-first-cake-day-post-v0-vsd25ninxzt91.jpg);
+  background-size: 102%;
+  background-position: right 19px;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+.tiempo {
+  vertical-align: center;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  font-size: 250%;
+}

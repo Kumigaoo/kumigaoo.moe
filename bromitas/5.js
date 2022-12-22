@@ -6,8 +6,9 @@ let frases = {
   6: "Si os agachais me la veis",
   7: "Por el culo se te mete",
   8: "Por el culo te la entocho",
-  9: "Agarrame la que se me mueve",
-  13: "Agarrame la que me crece",
+  9: "Agárrame la que se me mueve",
+  13: "Agárrame la que me crece",
+  18: () => (window.location.href = "/contador.html"),
 };
 
 let keys = "";
@@ -21,6 +22,11 @@ document.addEventListener("keydown", (event) => {
   if (options.length == 1) timeout = 1;
   setTimeout(() => {
     if (!frases.hasOwnProperty(keys) || showingmessage) return;
+    if (typeof frases[keys] == "function") {
+      frases[keys]();
+      keys = "";
+      return;
+    }
     document.getElementById("rimas").innerHTML = frases[keys];
     document.getElementById("rimas").style.display = "flex";
     showingmessage = true;
