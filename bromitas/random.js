@@ -13,5 +13,6 @@ document.getElementsByClassName("moth")[0].addEventListener("click", (_) => {
     caja.style.top = ranval(0, 100) + "%";
     caja.style.left = ranval(0, 100) + "%";
     caja.style.fontSize = ranval(10, 77) + "px";
+    document.getElementById("music").play();
   });
 });
