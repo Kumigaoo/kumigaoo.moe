@@ -20,7 +20,7 @@
 .glitch::after {
   animation-name: glitch-animation;
   animation-duration: 4s;
-  left: 4px;
+  left: -4px;
   text-shadow: -1px 0 #f8d251;
   background-color: black;
   background-repeat: no-repeat;
@@ -29,21 +29,21 @@
 @media (orientation: landscape) {
   .glitch::before {
     background-size: 100vw auto;
-    background-position: calc(50.5% + 4px) center;
+    background-position: calc(50.5% +-4px) center;
   }
   .glitch::after {
     background-size: 100vw auto;
-    background-position: calc(50.5% - 4px) center;
+    background-position: calc(50.5% --4px) center;
   }
 }
 @media (orientation: portrait) {
   .glitch::before {
     background-size: auto 100vh;
-    background-position: calc(50.5% + 4px) center;
+    background-position: calc(50.5% +-4px) center;
   }
   .glitch::after {
     background-size: auto 100vh;
-    background-position: calc(50.5% - 4px) center;
+    background-position: calc(50.5% --4px) center;
   }
 }
 

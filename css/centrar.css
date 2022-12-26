@@ -11,10 +11,6 @@ body {
   text-align: center;
 }
 #cums {
-  --side: calc(min(100vh, 150vw) / 2);
-  width: var(--side);
-  height: var(--side);
-  position: absolute;
-  top: calc((110vh - var(--side)) / 2);
-  left: calc((87.5vw - var(--side)) / 2);
+  top: 18vh;
+  left: 7vh;
 }

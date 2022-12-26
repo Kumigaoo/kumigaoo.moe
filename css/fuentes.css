@@ -64,11 +64,11 @@ body {
 .textrate,
 .middletext {
   font-family: "Special Elite";
-  color: #d2738a;
+  color: rgb(146, 32, 25);
   font-size: 160%;
   letter-spacing: 8px;
 }
 a {
-  color: #d2738a;
+  color: #c1b492;
   text-decoration: none;
 }
