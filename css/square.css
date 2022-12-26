@@ -1,0 +1,18 @@
+.box {
+  --side: calc(min(200vh, 150vw) / 2);
+  width: var(--side);
+  height: var(--side);
+  position: absolute;
+  top: calc((100vh - var(--side)) / 2);
+  left: calc((100vw - var(--side)) / 2);
+  overflow: hidden;
+  background-color: black;
+}
+
+.scolopendra {
+  width: 35vh;
+  height: 35vw;
+  top: 170px;
+  left: 250px;
+  position: absolute;
+}

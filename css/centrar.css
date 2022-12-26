@@ -1,15 +1,20 @@
-body 
-{
-    display:flex;
-    align-content:center;
-    justify-content:center;
-    height:100vh;
-    align-items:center;
-    margin:0
+body {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  margin: 0;
 }
-.title
-{
-    vertical-align:center;
-    text-align: center;
+.title {
+  vertical-align: center;
+  text-align: center;
 }
-
+#cums {
+  --side: calc(min(100vh, 150vw) / 2);
+  width: var(--side);
+  height: var(--side);
+  position: absolute;
+  top: calc((110vh - var(--side)) / 2);
+  left: calc((87.5vw - var(--side)) / 2);
+}

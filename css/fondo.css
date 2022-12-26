@@ -1,9 +1,8 @@
-body
-{
-    background-image: url("/images/Nixiecentrado.jpg");
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    width:100%;
-    overflow:hidden;
+body {
+  background-image: url("/images/p5papqqm7gjeayk55ifjhg62znddy5tf_hq.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
 }
