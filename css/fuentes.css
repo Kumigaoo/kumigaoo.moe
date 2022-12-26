@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
 body {
-  font-family: "Lobster", cursive;
+  font-family: "Special Elite";
   color: rgb(241, 241, 228);
 }
 .title {
   font-size: 100%;
   font-size: 7em;
+  letter-spacing: 30px;
 }
 
 @media (max-width: 350px) {
@@ -41,9 +43,10 @@ body {
 }
 
 .up {
-  font-family: "Press Start 2P", cursive;
-  color: rgb(241, 241, 228);
-  font-size: 16px;
+  font-family: "Times New Roman", cursive;
+  color: #c1b492;
+  font-size: 20px;
+  letter-spacing: 8px;
 }
 #rimas {
   font-family: "Rubik Glitch";
@@ -52,13 +55,20 @@ body {
 }
 
 .titlerate {
-  font-family: "Lobster";
-  color: black;
+  font-family: "Times New Roman";
+  color: #c1b492;
   font-size: 280%;
+  letter-spacing: 8px;
 }
 
-.textrate {
-  font-family: "Lobster";
-  color: black;
+.textrate,
+.middletext {
+  font-family: "Times New Roman";
+  color: #d2738a;
   font-size: 160%;
+  letter-spacing: 8px;
+}
+a {
+  color: #d2738a;
+  text-decoration: none;
 }

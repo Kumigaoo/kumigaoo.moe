@@ -1,5 +1,5 @@
 #rimas {
-  background-color: white;
+  background-image: url(/images/587a3c0089e471978db53e756f5ad402.gif);
   align-content: center;
   align-items: center;
   justify-content: center;
@@ -10,4 +10,6 @@
   width: 100%;
   height: 100%;
   z-index: 10;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

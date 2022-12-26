@@ -29,11 +29,12 @@ document.addEventListener("keydown", (event) => {
     }
     document.getElementById("rimas").innerHTML = frases[keys];
     document.getElementById("rimas").style.display = "flex";
+    document.getElementById("screamer").play();
     showingmessage = true;
     setTimeout(() => {
       document.getElementById("rimas").style.display = "none";
       showingmessage = false;
-    }, 4e3);
+    }, 5e3);
     keys = "";
   }, timeout);
 });
