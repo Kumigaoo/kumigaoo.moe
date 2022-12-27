@@ -10,6 +10,6 @@
 .moth {
   position: absolute;
   width: 55vh;
-  top: 13vh;
-  left: 36vw;
+  top: 9vh;
+  cursor: pointer;
 }

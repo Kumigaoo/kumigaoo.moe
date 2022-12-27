@@ -7,12 +7,13 @@ document.getElementsByClassName("moth")[0].addEventListener("click", (_) => {
     document.getElementsByClassName("random")[0].children
   );
   console.log(cajas);
+  document.getElementsByClassName("random")[0].style.display = "flex";
   cajas.forEach((caja) => {
-    caja.style.width = ranval(7, 77) + "%";
-    caja.style.heigh = ranval(7, 77) + "%";
-    caja.style.top = ranval(0, 100) + "%";
-    caja.style.left = ranval(0, 100) + "%";
-    caja.style.fontSize = ranval(10, 77) + "px";
+    caja.style.width = ranval(5, 40) + "%";
+    caja.style.heigh = ranval(5, 15) + "%";
+    caja.style.top = ranval(1, 90) + "%";
+    caja.style.left = ranval(1, 90) + "%";
+    caja.style.fontSize = ranval(20, 77) + "px";
     document.getElementById("music").play();
   });
 });

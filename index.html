@@ -37,8 +37,94 @@
       <p data-glitchtext="Wellcum" class="title glitch" id="cums">Welcome</p>
       <p></p>
     </div>
-    <img class="moth" src="images/Moth3.svg" />
-    <div class="random" style="display: flex">
+    <div
+      style="
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      "
+    >
+      <svg class="moth" viewBox="0 0 360 228">
+        <defs c>
+          <filter
+            id="filter"
+            x="-20%"
+            y="-20%"
+            width="140%"
+            height="140%"
+            filterUnits="objectBoundingBox"
+            primitiveUnits="userSpaceOnUse"
+            color-interpolation-filters="linearRGB"
+          >
+            <feMorphology
+              operator="dilate"
+              radius="2 0"
+              x="0%"
+              y="0%"
+              width="100%"
+              height="100%"
+              in="SourceGraphic"
+              result="morphology1"
+            ></feMorphology>
+          </filter>
+          <filter
+            id="filter-2"
+            x="-20%"
+            y="-20%"
+            width="140%"
+            height="140%"
+            filterUnits="objectBoundingBox"
+            primitiveUnits="userSpaceOnUse"
+            color-interpolation-filters="linearRGB"
+          >
+            <feMorphology
+              operator="dilate"
+              radius="5 1"
+              x="0%"
+              y="0%"
+              width="100%"
+              height="100%"
+              in="SourceGraphic"
+              result="morphology1"
+            ></feMorphology>
+          </filter>
+          <filter
+            id="filter-3"
+            x="-20%"
+            y="-20%"
+            width="140%"
+            height="140%"
+            filterUnits="objectBoundingBox"
+            primitiveUnits="userSpaceOnUse"
+            color-interpolation-filters="linearRGB"
+          >
+            <feMorphology
+              operator="dilate"
+              radius="2 0"
+              x="0%"
+              y="0%"
+              width="100%"
+              height="100%"
+              in="SourceGraphic"
+              result="morphology1"
+            ></feMorphology>
+          </filter>
+        </defs>
+        <image
+          x="0%"
+          y="0%"
+          width="369"
+          height="228"
+          preserveAspectRatio="xMidYMid slice"
+          xlink:href="/images/Moth3.svg"
+          id="my-image"
+        ></image>
+      </svg>
+    </div>
+    <div class="random" style="display: none">
       <div><a href="/rating.html">tea rating</a></div>
       <div><a href="/tierlist">tea tierlist</a></div>
       <div><a href="https://kumigaoo.info">social</a></div>
@@ -49,7 +135,7 @@
     <audio hidden id="screamer">
       <source src="/audios/Sonido de screamer (FUERTE).mp3" type="audio/mp3" />
     </audio>
-    <audio hidden id="music">
+    <audio hidden id="music" loop>
       <source src="/audios/Ether tune.mp3" type="audio/mp3" />
     </audio>
     <script src="bromitas/5.js"></script>
