@@ -6,7 +6,6 @@ document.getElementsByClassName("moth")[0].addEventListener("click", (_) => {
   let cajas = Object.values(
     document.getElementsByClassName("random")[0].children
   );
-  console.log(cajas);
   document.getElementsByClassName("random")[0].style.display = "flex";
   cajas.forEach((caja) => {
     caja.style.width = ranval(5, 40) + "%";
