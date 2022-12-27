@@ -70,4 +70,5 @@ body {
 a {
   color: #c1b492;
   text-decoration: none;
+  cursor: url(/images/animals-moth-pointer.png), auto;
 }

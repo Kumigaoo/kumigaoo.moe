@@ -11,5 +11,5 @@
   position: absolute;
   width: 55vh;
   top: 9vh;
-  cursor: pointer;
+  cursor: url(/images/animals-moth-pointer.png), auto;
 }
