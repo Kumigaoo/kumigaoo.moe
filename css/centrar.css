@@ -57,10 +57,10 @@ body {
     font-size: 100%;
     letter-spacing: 10px;
   }
-  
-  @media (max-width: 1080px) {
+}
+@media (max-width: 1080px) {
   .glitch {
-    font-size: 1em;
+    font-size: 1em%;
   }
 }
 .middletext > p {
