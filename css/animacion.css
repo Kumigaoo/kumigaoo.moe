@@ -184,23 +184,6 @@
   }
 }
 
-@keyframes my-animation {
-  0% {
-    filter: none;
-  }
-  20% {
-    filter: url(#filter);
-  }
-  50% {
-    filter: url(#filter-2);
-  }
-  80% {
-    filter: url(#filter-3);
-  }
-  94% {
-    filter: none;
-  }
-}
 #my-image:hover {
   filter: url(#filter);
   animation: 0.8s my-animation alternate infinite;
@@ -231,4 +214,12 @@
   animation-duration: 0.4s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+}
+.random {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  pointer-events: none;
 }

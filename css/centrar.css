@@ -60,7 +60,7 @@ body {
 }
 @media (max-width: 1080px) {
   .glitch {
-    font-size: 1em%;
+    font-size: 1em;
   }
 }
 .middletext > p {
