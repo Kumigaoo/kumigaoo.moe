@@ -5,11 +5,11 @@
   display: flex;
   overflow: hidden;
   background-color: black;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .moth {
-  position: absolute;
-  width: 55vh;
-  top: 9vh;
+  width: 100%;
   cursor: url(/images/animals-moth-pointer.png), auto;
 }

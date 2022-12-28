@@ -1,4 +1,5 @@
 body {
+  overflow: hidden;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -11,10 +12,13 @@ body {
   vertical-align: center;
   text-align: center;
 }
-#cums {
-  vertical-align: center;
+.glitch {
+  font-size: 300%;
+}
+.glitch::before,
+.glitch::after {
   text-align: center;
-  position: absolute;
+  width: 100%;
 }
 
 @media (max-width: 3340px) {
@@ -45,4 +49,7 @@ body {
   #cums {
     font-size: 2em;
   }
+}
+.middletext > p {
+  margin: 0;
 }

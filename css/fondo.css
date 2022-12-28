@@ -5,4 +5,5 @@ body {
   background-position: center;
   width: 100%;
   overflow: hidden;
+  background-attachment: fixed;
 }
