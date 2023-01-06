@@ -10,6 +10,10 @@ body {
   font-size: 100%;
   font-size: 7em;
   letter-spacing: 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 @media (max-width: 350px) {
@@ -66,6 +70,10 @@ body {
   font-family: "Special Elite";
   color: rgb(146, 32, 25);
   letter-spacing: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 a {
   color: #c1b492;
