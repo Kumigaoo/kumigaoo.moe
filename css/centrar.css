@@ -22,6 +22,11 @@ body {
   width: 100%;
 }
 
+#cums {
+  font-size: calc(3.6vw + 2vh);
+  letter-spacing: calc(1vw + 1.8vh);
+}
+
 @media (max-width: 3340px) {
   #cums {
     font-size: 7em;
