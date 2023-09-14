@@ -13,10 +13,13 @@ function choosing() {
     Tieguanyin: "Tieguanyin AAAAA",
     Osmanthus: "Osmanthus Tieguanyin AAA",
     LRP: "Lu Rou Pian",
+    BNLG: "Bai Nian Lao Gushu",
+    Yunwu: "Yunwu",
+    TLS: "Tarry Lapsang Souchong",
   };
   let array = [];
   document.querySelectorAll("[type=checkbox]:checked").forEach((el) => {
     array.push(el.names);
-    document.getElementById("Té").innerHTML = names[shuffle(array)[0]];
+    document.getElementById("Té").innerHTML = names[array[0]];
   });
 }
