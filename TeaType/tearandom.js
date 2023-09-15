@@ -17,6 +17,7 @@ function choosing() {
     Yunwu: "Yunwu",
     TLS: "Tarry Lapsang Souchong",
     JazmineGreen: "Jazmine Green Tea",
+    BHYZ: "Bai Hao Yin Zhen",
   };
   let array = [];
   document.querySelectorAll("[type=checkbox]:checked").forEach((el) => {
