@@ -16,6 +16,7 @@ function choosing() {
     BNLG: "Bai Nian Lao Gushu",
     Yunwu: "Yunwu",
     TLS: "Tarry Lapsang Souchong",
+    JazmineGreen: "Jazmine Green Tea",
   };
   let array = [];
   document.querySelectorAll("[type=checkbox]:checked").forEach((el) => {
