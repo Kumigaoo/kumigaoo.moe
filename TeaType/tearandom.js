@@ -19,7 +19,7 @@ function choosing() {
   };
   let array = [];
   document.querySelectorAll("[type=checkbox]:checked").forEach((el) => {
-    array.push(el.names);
-    document.getElementById("Té").innerHTML = names[array[0]];
+    array.push(el.id);
+    document.getElementById("Té").innerHTML = names[shuffle(array)[0]];
   });
 }
