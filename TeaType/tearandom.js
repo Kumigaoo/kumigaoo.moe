@@ -18,6 +18,10 @@ function choosing() {
     TLS: "Tarry Lapsang Souchong",
     JazmineGreen: "Jazmine Green Tea",
     BHYZ: "Bai Hao Yin Zhen",
+    TaipingHou: "Taiping Houkui",
+    HSHY: "Huon Sha Huang Ya",
+    Yiwu: "Yiwu Sheng",
+    Houji: "Bancha Houji-Cha",
   };
   let array = [];
   document.querySelectorAll("[type=checkbox]:checked").forEach((el) => {
