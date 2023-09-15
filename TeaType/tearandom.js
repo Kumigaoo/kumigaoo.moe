@@ -22,6 +22,7 @@ function choosing() {
     HSHY: "Huon Sha Huang Ya",
     Yiwu: "Yiwu Sheng",
     Houji: "Bancha Houji-Cha",
+    ButangZG: "Butang Zhu Gushu",
   };
   let array = [];
   document.querySelectorAll("[type=checkbox]:checked").forEach((el) => {
