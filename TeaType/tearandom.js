@@ -45,6 +45,11 @@ function choosing() {
     XYMJ: "Xin Yang Mao Jing",
     Qe: "Qe She",
     THK: "Taiping Hou Kui",
+    Sencha: "Sencha",
+    BasicKuki: "BasicKuki",
+    KukichaShira: "Kukicha Shiraore",
+    Kabusecha: "Kabusecha",
+    KabusechaJ30: "Kabusecha J30",
   };
   let array = [];
   document.querySelectorAll("[type=checkbox]:checked").forEach((el) => {
