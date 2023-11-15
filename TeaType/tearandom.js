@@ -46,10 +46,11 @@ function choosing() {
     Qe: "Qe She",
     THK: "Taiping Hou Kui",
     Sencha: "Sencha",
-    BasicKuki: "BasicKuki",
+    BasicKuki: "Basic Kukicha",
     KukichaShira: "Kukicha Shiraore",
     Kabusecha: "Kabusecha",
     KabusechaJ30: "Kabusecha J30",
+    BLGF: "Bai Ling Gongfu",
   };
   let array = [];
   document.querySelectorAll("[type=checkbox]:checked").forEach((el) => {

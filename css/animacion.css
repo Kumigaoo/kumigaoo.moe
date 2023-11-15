@@ -211,7 +211,7 @@
 
 .random > div:hover {
   animation-name: imgGlitch;
-  animation-duration: 0.4s;
+  animation-duration: 0s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }

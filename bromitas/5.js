@@ -8,7 +8,7 @@ let frases = {
   8: "Por el culo te la entocho",
   9: "Agárrame la que se me mueve",
   13: "Agárrame la que me crece",
-  18: () => (window.location.href = "/contador.html"),
+  19: () => (window.location.href = "/contador.html"),
 };
 
 let keys = "";
