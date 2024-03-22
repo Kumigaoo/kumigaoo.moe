@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+body {
+  background-image: url(/images/imLila.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.Im {
+  color: white;
+  font-family: "Special Elite";
+  overflow: hidden;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.Im > div {
+  position: absolute;
+  pointer-events: all;
+  overflow: hidden;
+}
