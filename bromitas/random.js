@@ -11,7 +11,7 @@ document.getElementsByClassName("moth")[0].addEventListener("click", (_) => {
   );
   document.getElementsByClassName("extras")[0].style.display = "";
   document.getElementsByClassName("random")[0].style.display = "flex";
-  if (contador <= 1.5) {
+  if (contador <= 0.5) {
     contador = 0;
     document.getElementsByClassName("box")[0].style.animation =
       "heartbeat " + contador + "s infinite";
@@ -28,7 +28,11 @@ document.getElementsByClassName("moth")[0].addEventListener("click", (_) => {
     document.getElementById("heart").playbackRate = contadorInv;
     document.getElementById("heart").volume = 1;
     contador -= 0.34;
-    contadorInv += 0.2;
+    if (contador < 1.96) contadorInv = 1.2;
+    if (contador < 1.62) contadorInv = 1.45;
+    if (contador < 1.28) contadorInv = 1.75;
+    if (contador < 0.94) contadorInv = 2.5;
+    if (contador < 0.6) contadorInv = 3.5;
   }
   cajas.forEach((caja) => {
     caja.style.width = ranval(5, 40) + "%";
