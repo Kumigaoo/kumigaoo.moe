@@ -12,6 +12,7 @@ body {
 .title {
   vertical-align: center;
   text-align: center;
+  align-self: center;
 }
 .glitch {
   font-size: 300%;

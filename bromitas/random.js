@@ -2,7 +2,7 @@ function ranval(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-var contador = 1.15;
+var contador = 2.3;
 var contadorInv = 1;
 
 document.getElementsByClassName("moth")[0].addEventListener("click", (_) => {
@@ -11,7 +11,7 @@ document.getElementsByClassName("moth")[0].addEventListener("click", (_) => {
   );
   document.getElementsByClassName("extras")[0].style.display = "";
   document.getElementsByClassName("random")[0].style.display = "flex";
-  if (contador <= 0.4) {
+  if (contador <= 1.5) {
     contador = 0;
     document.getElementsByClassName("box")[0].style.animation =
       "heartbeat " + contador + "s infinite";
@@ -26,7 +26,8 @@ document.getElementsByClassName("moth")[0].addEventListener("click", (_) => {
     document.getElementById("heart").play();
     document.getElementById("music").play();
     document.getElementById("heart").playbackRate = contadorInv;
-    contador -= 0.1;
+    document.getElementById("heart").volume = 1;
+    contador -= 0.34;
     contadorInv += 0.2;
   }
   cajas.forEach((caja) => {

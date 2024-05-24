@@ -228,7 +228,15 @@
     width: calc(min(150vh, 100vw) / 2);
     height: calc(min(150vh, 100vw) / 2);
   }
-  20% {
+  12.31% {
+    width: calc(min(170vh, 120vw) / 2);
+    height: calc(min(170vh, 120vw) / 2);
+  }
+  18% {
+    width: calc(min(150vh, 100vw) / 2);
+    height: calc(min(150vh, 100vw) / 2);
+  }
+  28.75% {
     width: calc(min(170vh, 120vw) / 2);
     height: calc(min(170vh, 120vw) / 2);
   }
@@ -236,11 +244,23 @@
     width: calc(min(150vh, 100vw) / 2);
     height: calc(min(150vh, 100vw) / 2);
   }
-  60% {
+  55% {
+    width: calc(min(150vh, 100vw) / 2);
+    height: calc(min(150vh, 100vw) / 2);
+  }
+  63.97% {
     width: calc(min(170vh, 120vw) / 2);
     height: calc(min(170vh, 120vw) / 2);
   }
-  80% {
+  70% {
+    width: calc(min(150vh, 100vw) / 2);
+    height: calc(min(150vh, 100vw) / 2);
+  }
+  80.5% {
+    width: calc(min(170vh, 120vw) / 2);
+    height: calc(min(170vh, 120vw) / 2);
+  }
+  90% {
     width: calc(min(150vh, 100vw) / 2);
     height: calc(min(150vh, 100vw) / 2);
   }
