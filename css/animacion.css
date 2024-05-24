@@ -223,3 +223,29 @@
   top: 0;
   pointer-events: none;
 }
+@keyframes heartbeat {
+  0% {
+    width: calc(min(150vh, 100vw) / 2);
+    height: calc(min(150vh, 100vw) / 2);
+  }
+  20% {
+    width: calc(min(170vh, 120vw) / 2);
+    height: calc(min(170vh, 120vw) / 2);
+  }
+  40% {
+    width: calc(min(150vh, 100vw) / 2);
+    height: calc(min(150vh, 100vw) / 2);
+  }
+  60% {
+    width: calc(min(170vh, 120vw) / 2);
+    height: calc(min(170vh, 120vw) / 2);
+  }
+  80% {
+    width: calc(min(150vh, 100vw) / 2);
+    height: calc(min(150vh, 100vw) / 2);
+  }
+  100% {
+    width: calc(min(150vh, 100vw) / 2);
+    height: calc(min(150vh, 100vw) / 2);
+  }
+}

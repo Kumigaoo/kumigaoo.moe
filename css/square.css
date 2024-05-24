@@ -10,6 +10,7 @@
 }
 
 .moth {
-  width: 100%;
+  align-self: center;
+  width: calc(min(150vh, 100vw) / 2);
   cursor: url(/images/animals-moth-pointer.png), auto;
 }
