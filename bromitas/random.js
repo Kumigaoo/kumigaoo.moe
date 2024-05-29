@@ -26,7 +26,6 @@ document.getElementsByClassName("moth")[0].addEventListener("click", (_) => {
     document.getElementById("heart").play();
     document.getElementById("music").play();
     document.getElementById("heart").playbackRate = contadorInv;
-    document.getElementById("heart").volume = 1;
     contador -= 0.34;
     if (contador < 1.96) contadorInv = 1.2;
     if (contador < 1.62) contadorInv = 1.45;
