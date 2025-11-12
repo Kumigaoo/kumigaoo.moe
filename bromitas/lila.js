@@ -23,8 +23,8 @@ function movimiento() {
 }
 
 let frases = {
-  kumi: () => (window.location.href = "/kumi.html"),
-  lila: () => (window.location.href = "/home.html"),
+  kumi: () => (window.location.href = "/kumi"),
+  lila: () => (window.location.href = "/home"),
 };
 
 let keys = "";
