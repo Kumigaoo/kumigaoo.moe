@@ -1,4 +1,4 @@
-let end = 1762988400;
+let end = 1794524400;
 setInterval(() => {
   let left = end - Math.floor(new Date().getTime() / 1e3);
   console.log(left);
