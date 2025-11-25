@@ -9,7 +9,7 @@ let frases = {
   9: "Agárrame la que se me mueve",
   13: "Agárrame la que me crece",
   18: "Por el culo te la entocho",
-  20: () => (window.location.href = "/contador"),
+  21: () => (window.location.href = "/contador"),
   lila: () => (window.location.href = "/lila"),
 };
 
